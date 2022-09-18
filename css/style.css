@@ -9,13 +9,16 @@ h1 {
     color: salmon;
     font-size: 72px;
     font-weight: 900;
+    margin-bottom: 0px;
+    margin: 150px 0 20px 0;
 }
 
 h2 {
     color: chocolate;
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 0px;
+    margin: 20px 0 20px 0;
+    text-decoration: solid underline chocolate 12px;
 }
 
 p {
@@ -26,9 +29,14 @@ a {
     background-color: yellow;
     color: black;
     font-weight: 900;
+    transition: all 100ms;
+}
+a:hover {
+    color: red;
+    font-size: larger;
 }
 
-li {
+ul, ol {
     margin: auto;
     padding: auto;
 }
